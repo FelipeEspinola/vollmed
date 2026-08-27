@@ -1,23 +1,8 @@
 // Componente funcional que contem a porta de entrada do App
 
-import { View, Text, StyleSheet } from "react-native";
-import Button from "./src/components/Button";
+import LoginScreen from "./src/App/screens/LoginScreen";
 
 export default function App() {
-    return(
-        <View style={styles.container}>
-            <View style={styles.card}>
-                <Text style={styles.titulo}>Olá Mundo!</Text>
-                <Text style={styles.descricao}>Eu estou funcionando !!!</Text>
-            </View>
-            <Button/>
-        </View>
-    )
+    return<LoginScreen/>
 }
 
-const styles = StyleSheet.create({
-    container:{},
-    card :{},
-    titulo:{},
-    descricao:{},
-})
