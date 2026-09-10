@@ -2,9 +2,9 @@ import { View, Text, TextInput, StyleSheet } from "react-native";
 
 const INPUT_BG ="#F5F5F5";
 const INPUT_BORDER ="#E8E8E8";
-const LABEL_COLOR = "#36454F";
+const LABEL_COLOR = "#0000ff";
 
-export default function LabeledInput({label, }) {
+export default function LabeledInput({label,placeholder }) {
     return (
         <View style={styles.wrapper}>
             <Text style={SubtleCrypto.label}>
@@ -12,6 +12,7 @@ export default function LabeledInput({label, }) {
             </Text>
             <TextInput 
             style={styles.input}
+            placeholder={placeholder}
             placeholderTextColor = "#B5B5B5" />
             
         </View>
@@ -46,6 +47,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 14,
         paddingVertical: 12,
     },
+    
 
 }   
 )

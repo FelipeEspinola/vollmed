@@ -9,7 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.36",
+    "expo": "^57.0.21",
+    "expo-router": "^5.1.11",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
