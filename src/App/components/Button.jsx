@@ -1,6 +1,6 @@
 // componente reutilizavel do botão principal
-import { StyleSheet } from "react-native";
-import { Pressable, Text } from "react-native";
+import { Pressable, Text, StyleSheet } from "react-native";
+import colors from "../theme/colors";
 
 const BG_BUTTON = "#00213D";
 const TEXT_PRIMARY = "#FFFFFF"
